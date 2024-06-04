@@ -1,0 +1,1 @@
+useState(!1);useState(null);useState(null);const[t,n]=useState(new Date().getFullYear()),[s,u]=useState(new Date().getMonth());useState([]);useState(!1);useState("");useEffect(()=>{const e=new Date().toLocaleString("ph-PH",{timeZone:"Asia/Manila"});n(new Date(e).getFullYear()),u(new Date(e).getMonth())},[]);Array.from({length:(s>=3?t:t-1)-1990},(e,a)=>1990+a);
